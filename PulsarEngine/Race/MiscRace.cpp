@@ -133,6 +133,15 @@ const char* ChangeItemWindowPane(ItemId id, u32 itemCount) {
         else if (itemCount == 3) paneName = "feather_3";
         else paneName = "feather";
     }
+    else if (id == FEATHER) {
+        if (itemCount == 2) paneName = "feather_2";
+        else if (itemCount == 3) paneName = "feather_3";
+        else paneName = "feather";
+    }
+    else if (id == BOO) {
+        // paneName = "boo";
+        paneName = "feather"; // Should be boo, but I didn't add the pane to ItemPUL.brlyt
+    }
     else if (id == THUNDER_CLOUD && megaTC) paneName = "megaTC";
     else paneName = GetItemIconPaneName(id, itemCount);
     return paneName;
