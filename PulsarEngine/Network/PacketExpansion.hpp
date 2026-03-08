@@ -119,7 +119,7 @@ public:
 };
 
 u8 GetLastRecvSECTIONSize(u8 aid, u8 sectionIdx);
-
+ItemId GetNetworkPlayerItem(u8 playerId);
 }//namespace Network
 }//namespace Pulsar
 
