@@ -820,6 +820,7 @@ __ct__Q24Kart11BRRESHandleFP5LightbUc = 0x80576b3c
 
 #KartMovement
 ApplyLightningEffect__Q24Kart8MovementFiii = 0x80580778
+ApplyLightning__Q24Kart8MovementFv = 0x80580438
 UpdateSlipstream__Q24Kart8MovementFv = 0x80586fa8
 
 #KartBoost
@@ -1867,5 +1868,16 @@ IsBattle__Fv = 0x80860a8c
 GetItemIconPaneName__F6ItemIdUi = 0x80860af0
 TimerToTextInfo__FRC5TimerRQ24Text4Info = 0x808608e4
 
-
+ptr_menuPageOrSomething = 0x809C2850
+fun_playSound = 0x8071497C
+ClearAll__Q24Item15PlayerInventoryFv = 0x807bc9c0
+GetTargetedPlayerId__Q24Item11ObjKouraRedCFv = 0x807ab894
+RedShellResetTargeting = 0x807b3ec0
+UpdateOffroad__Q24Kart8MovementFv = 0x8057c3d4
+CheckObjectCollision__Q24Kart9CollisionFv = 0x80571f10
+CheckItemCollision__Q24Kart9CollisionFv = 0x8057257c
+CheckKartCollision__Q24Item3ObjFPQ24Kart6PlayerUi = 0x807a14d4
+RedShellEvalTarget = 0x807b381c
+calcPow__Q24Kart8MovementFv = 0x805810a8
+EjectItems__Q24Item15PlayerInventoryFv = 0x807bc350
 
